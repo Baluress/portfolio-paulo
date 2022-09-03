@@ -1,6 +1,6 @@
 const url = "https://api.github.com/users/baluress"
 
-function getAvatar(){
+function getUser(){
   fetch(url)
   .then(response => response.json())
   .then(data => {
@@ -10,4 +10,4 @@ function getAvatar(){
   })
 }
 
-getAvatar()
+getUser()

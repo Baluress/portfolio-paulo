@@ -62,3 +62,36 @@ body {
   color: var(--text-color);
   padding-inline: 0.5rem;
 }
+
+/* ------------ SOCIAL ---------- */
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 3rem; 
+}
+
+.social__li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.social__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.social__icone {
+  font-size: 2.4rem;
+  color: var(--text-color);
+}
+
+.social__texto {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
