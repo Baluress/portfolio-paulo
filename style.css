@@ -22,14 +22,15 @@ body {
 }
 
 .container {
+  background-color: var(--bg-cards);
   margin-inline: 2.4rem;
   border-radius: 2rem;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 3rem;
 }
 
 /* ------------ HEADER ---------- */
 .header {
-  background-color: var(--bg-cards);
   display: flex;
   flex-direction: column;
   align-items: center;
