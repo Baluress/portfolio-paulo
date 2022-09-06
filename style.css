@@ -60,6 +60,7 @@ body {
   color: var(--text-color);
   padding-inline: 0.5rem;
   margin-bottom: 4.9rem;
+  text-align: center;
 }
 
 /* ------------ SOCIAL ---------- */
