@@ -127,6 +127,42 @@ body {
   text-transform: uppercase;
 }
 
+/* ------------ EDUCATION ---------- */
+.education__title {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-inline: 2rem;
+  margin-bottom: 2rem;
+}
+
+.education__list {
+  padding-left: 4rem;
+  color: var(--text-color);
+}
+
+.education__list{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.education__link {
+  text-decoration: none;
+}
+
+.education__link--subtitle {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.education__link--year,
+.education__link--course {
+  color: var(--text-color);
+  font-size: 1.3rem;
+}
+
 /*@media screen and (min-width: 425px) {
   .technologies_item {
     width: 30%;
