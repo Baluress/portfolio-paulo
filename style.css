@@ -164,6 +164,10 @@ body {
 }
 
 /* ------------ PROJECTS ---------- */
+.projects {
+  margin-bottom: 2rem;
+}
+
 .projects__title {
   color: var(--text-color);
   font-weight: 700;
@@ -187,7 +191,21 @@ body {
   padding-left: 4rem;
 }
 
-.projects__link--icone {
+.projects__link--escova--dente {
+  background: url(./assets/img/escova-de-dente.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-right: 2rem;
+}
+
+.projects__link--escova--cabelo {
+  background: url(./assets/img/escova-de-cabelo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 3.6rem;
   height: 3.6rem;
   margin-right: 2rem;
