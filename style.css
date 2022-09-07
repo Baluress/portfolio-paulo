@@ -163,6 +163,42 @@ body {
   font-size: 1.3rem;
 }
 
+/* ------------ PROJECTS ---------- */
+.projects__title {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-inline: 2rem;
+  margin-bottom: 2rem;
+}
+
+.projects__itens {
+  list-style: none;
+}
+
+.projects__itens:first-child {
+  margin-bottom: 2.5rem;
+}
+
+.projects__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 4rem;
+}
+
+.projects__link--icone {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-right: 2rem;
+}
+
+.projects__link--project {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
 /*@media screen and (min-width: 425px) {
   .technologies_item {
     width: 30%;
