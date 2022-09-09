@@ -298,3 +298,24 @@ body {
     margin-bottom: 3rem;
   }
 }
+
+/* ------------ 768 ---------- */
+@media screen and (min-width: 1024px) {
+  .container {
+      width: 35vw;
+  }
+
+  main {
+    height: 54.5%;
+  }
+
+  .education {
+    width: 53vw;
+    margin-left: 4rem;
+  }
+
+  .projects {
+    height: 31.9%;
+    width: 53vw;
+  }
+}
