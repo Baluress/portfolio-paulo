@@ -248,7 +248,7 @@ body {
   .container {
     margin-left: 4rem;
     margin-right: 0;
-    width: 45vw;
+    width: 34.5rem;
   }
 
   main {
@@ -270,8 +270,8 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
-    align-items: flex-start;
-    padding-left: 4rem;
+    align-items: center;
+    padding-left: 0;
   }
 
   .technologies_item {
@@ -280,9 +280,8 @@ body {
 
   .education {
     min-height: 45.7rem;
-    width: 40vw;
-    margin-right: 4rem;
-    margin-inline: 10%;
+    width: calc(100% - 8rem);
+    margin-inline: 4rem;
   }
  
   .footer {
@@ -290,14 +289,15 @@ body {
   }
 
   .projects {
-    min-height: 28.5rem;
-    width: 40vw;
+    min-height:28.5rem;
+    width: calc(100% - 46.3rem);
     position: absolute;
     top: 4rem;
-    right: 5%;
+    right: 4rem;
     margin-bottom: 3rem;
-    margin-left: 5%;
+    margin-left: 4rem;
   }
+
 }
 
 /* ------------ MAIOR QUE 850 ---------- */
@@ -311,7 +311,7 @@ body {
 /* ------------ MAIOR QUE 942 ---------- */
 @media screen and (min-width: 942px) {
   .projects {
-    right: 6%;
+    right: 6.1%;
   }
 }
 
@@ -323,11 +323,6 @@ body {
 
   .header__bio {
     font-size: 1.4rem;
-  }
-
-  .social {
-    align-items: center;
-    padding: 0;
   }
 
   .education {
