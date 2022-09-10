@@ -252,7 +252,7 @@ body {
   }
 
   main {
-    height: 72.6%;
+    max-height: 49rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -279,10 +279,10 @@ body {
   }
 
   .education {
-    height: 94.3%;
+    min-height: 45.7rem;
     width: 40vw;
     margin-right: 4rem;
-    margin-left: 3.5rem;
+    margin-inline: 10%;
   }
  
   .footer {
@@ -290,16 +290,32 @@ body {
   }
 
   .projects {
-    height: 42.6%;
+    min-height: 28.5rem;
     width: 40vw;
     position: absolute;
     top: 4rem;
-    right: 4rem;
+    right: 5%;
     margin-bottom: 3rem;
+    margin-left: 5%;
   }
 }
 
-/* ------------ 768 ---------- */
+/* ------------ MAIOR QUE 850 ---------- */
+@media screen and (min-width: 857px) {
+  .projects {
+    right: 5.5%;
+    margin-left: 4%;
+  }
+}
+
+/* ------------ MAIOR QUE 942 ---------- */
+@media screen and (min-width: 942px) {
+  .projects {
+    right: 6%;
+  }
+}
+
+/* ------------ 1024 ---------- */
 @media screen and (min-width: 1024px) {
   .container {
       width: 35vw;
