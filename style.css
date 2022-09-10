@@ -321,17 +321,68 @@ body {
       width: 35vw;
   }
 
-  main {
-    height: 54.5%;
+  .header__bio {
+    font-size: 1.4rem;
+  }
+
+  .social {
+    align-items: center;
+    padding: 0;
   }
 
   .education {
-    width: 53vw;
-    margin-left: 4rem;
+    width: 51vw;
+    margin-inline: 4rem;
   }
 
   .projects {
-    height: 31.9%;
-    width: 53vw;
+    width: 51vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects__title {
+    font-size: 2.6rem;
+    margin-bottom: 5rem;
+  }
+
+  .projects__itens:first-child {
+    margin-bottom: 3.2rem;
+  }
+
+  .projects__link {
+    padding: 0;
+  }
+
+  .projects__link--project {
+    font-size: 1.8rem;
+  }
+
+  .education__title {
+    font-size: 2.6rem;
+    text-align: center;
+    margin-inline: 0;
+    margin-bottom: 5rem;
+  }
+
+  .education__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    row-gap: 3.2rem;
+  }
+
+  .education__itens {
+    width: 30%;
+  }
+
+  .education__link--subtitle {
+    font-size: 1.7rem;
+  }
+
+  .education__link--year,
+  .education__link--course {
+    font-size: 1.4rem;
   }
 }
