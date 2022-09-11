@@ -300,25 +300,10 @@ body {
 
 }
 
-/* ------------ MAIOR QUE 850 ---------- */
-@media screen and (min-width: 857px) {
-  /*.projects {
-    right: 5.5%;
-    margin-left: 4%;
-  }
-} */
-
-/* ------------ MAIOR QUE 942 ---------- */
-@media screen and (min-width: 942px) {
-  /*.projects {
-    right: 6.1%;
-  }
-} */
-
 /* ------------ 1024 ---------- */
 @media screen and (min-width: 1024px) {
   .container {
-      width: 35vw;
+      width: 35.8rem;
   }
 
   .header__bio {
@@ -326,12 +311,12 @@ body {
   }
 
   .education {
-    width: 51vw;
+    width: calc(100vw - 47.8rem);
     margin-inline: 4rem;
   }
 
   .projects {
-    width: 51vw;
+    width: calc(100vw - 47.8rem);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,7 +350,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    row-gap: 3.2rem;
+    row-gap: 3.5rem;
+    padding-inline: 5rem;
   }
 
   .education__itens {
