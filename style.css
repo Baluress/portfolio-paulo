@@ -367,3 +367,36 @@ body {
     font-size: 1.4rem;
   }
 }
+
+/* ------------ 1220+ ---------- */
+@media screen and (min-width: 1440px) {
+  .projects__title {
+    font-size: 3rem;
+  }
+
+  .projects__link--project {
+    font-size: 2rem;
+  }
+
+  .education__list {
+    flex-wrap: nowrap;
+  }
+
+  .education__link--subtitle {
+    font-size: 1.8rem;
+  }
+
+  .education__link--year,
+  .education__link--course {
+    font-size: 1.6rem;
+  }
+
+  .footer {
+    margin-top: 4rem;
+    padding: 0;
+  }
+
+  .footer__text {
+    font-size: 1.8rem;
+  }
+}
