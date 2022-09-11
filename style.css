@@ -373,12 +373,22 @@ body {
     margin-right: 4rem;
   }
 
+  main {
+    width: 100vw;
+  }
+
   .projects__title {
     font-size: 3rem;
   }
 
   .projects__link--project {
     font-size: 2rem;
+  }
+
+  .education {
+    position: absolute;
+    right: 0;
+    width: calc(100% - 47.8rem); 
   }
 
   .education__list {
